@@ -1,0 +1,57 @@
+body {
+  font-family: MuseoModerno, Arial;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000054;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  margin-right: 30px;
+}
+
+.icon-bar {
+  display: block;
+  width: 30px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #000054;
+}
+
+.icon-bar + .icon-bar {
+  margin-top: 5px;
+}
+
+.description {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.dialogflow {
+  width: 100vw;
+}
