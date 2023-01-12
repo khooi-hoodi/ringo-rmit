@@ -11,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Ringo the RMIT Helper</title>
   </head>
   <body>
@@ -30,19 +36,46 @@
     </header>
     <main>
       <section class="description">
-        <h1>Hi, I'm Ringo the RMIT Helper!</h1>
-        <p class="ringo-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-          optio hic sunt doloremque veniam eius expedita exercitationem nemo
-          voluptas impedit, reprehenderit minus maiores rerum at ad delectus
-          unde. Temporibus, quaerat!
-        </p>
+        <h1>
+          Hi, I'm <a class="ringo-link" href="#dialogflow">Ringo</a> the RMIT
+          Helper!
+        </h1>
+        <div>
+          <p class="ringo-description">
+            I am a chatbot created in order to help RMIT students with enquiries
+            and appointments.
+          </p>
+          <p class="ringo-description">
+            I was created by DialogFlow, a bot service that incorporates basic
+            machine learning and AI in order to answer (most of) your questions!
+          </p>
+          <p class="ringo-description">
+            I hope that I can make your experience at RMIT a bit easier.
+            Welcome!
+          </p>
+        </div>
+        <div class="handy-links">
+          <p class="subheader">Handy Links</p>
+          <ul>
+            <li>myTimetable</li>
+            <li>Online Enrolment System</li>
+            <li>RMIT Vietnam Library</li>
+            <li>Password Reset for Student Accounts</li>
+            <li>Password Reset for Guest Accounts</li>
+            <li>LMS (Canvas)</li>
+            <li>RMIT Vietnam Website</li>
+            <li>Confirmation of Enrolment</li>
+            <li>IT Support</li>
+          </ul>
+        </div>
+        <div class="commands-list">
+          <p class="subheader">List of Commands</p>
+          <ul></ul>
+        </div>
       </section>
       <iframe
-        class="dialogflow"
+        id="dialogflow"
         allow="microphone;"
-        width="350"
-        height="430"
         src="https://console.dialogflow.com/api-client/demo/embedded/f2f94bca-5fda-4199-bfdb-7129285c6bd4"
       >
       </iframe>
