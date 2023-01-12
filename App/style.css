@@ -10,6 +10,7 @@ body {
 p {
   font-family: Montserrat, Arial;
   font-size: 20px;
+  line-height: 30px;
 }
 
 ul {
@@ -21,6 +22,16 @@ ul {
 li {
   font-family: Montserrat, Arial;
   font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: #e60028;
 }
 
 header {
@@ -70,7 +81,7 @@ button:hover {
   justify-content: center;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .ringo-link {
